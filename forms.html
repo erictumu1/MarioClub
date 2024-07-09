@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>HTML FORMS</h1>
+
+    <form>
+      <label for="username">enter username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter username:"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Enter email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter email:"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password:"
+      />
+      <br />
+      <h2>Select your Gender</h2>
+      <br />
+      <input type="radio" name="gender" value="Male" id="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" name="gender" value="Female" id="female" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" name="gender" value="Other" id="other" />
+      <label for="other">Other</label>
+
+      <br />
+      <br />
+
+      <label for="questions">Security question:</label>
+      <select name="questions" id="" questions>
+        <option value="q1">What color is your face?</option>
+        <option value="q2">If you could be me, why?</option>
+        <option value="q3">What is your best color?</option>
+      </select>
+      <br />
+      <br />
+      <label for="answer">Security question answer:</label>
+      <input type="text" id="answer" name="answer" />
+
+      <br />
+      <br />
+      <label for="bi">Your bio:</label>
+      <br />
+      <textarea
+        name="bio"
+        id="bi"
+        cols="30"
+        rows="10"
+        placeholder="about you..."
+      ></textarea>
+
+      <br />
+      <br />
+
+      <input type="submit" value="submit the form" />
+    </form>
+  </body>
+</html>
